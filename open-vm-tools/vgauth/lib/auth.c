@@ -608,9 +608,8 @@ VGAuth_ValidateUsernamePassword(VGAuthContext *ctx,
       VGAuth_AuditEvent(ctx,
                         FALSE,
                         SU_(auth.password.invalid,
-                            "Username and password validation failed for '%s': "
-                            "%s"),
-                        userName, VGAuth_GetErrorText(err, NULL));
+                            "Username and password mismatch for '%s'"),
+                        userName);
    }
 
    return err;

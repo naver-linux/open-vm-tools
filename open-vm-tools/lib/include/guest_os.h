@@ -227,6 +227,7 @@ Bool Gos_InSetArray(uint32 gos, const uint32 *set);
                               BS(DEBIAN_ARM_64),   BS(UBUNTU_ARM_64),       \
                               BS(RHEL9_64),        BS(RHEL9_ARM_64),        \
                               BS(ROCKY_LINUX_64),  BS(ROCKY_LINUX_ARM_64),  \
+                              BS(NAVIX_64),        BS(NAVIX_ARM_64),        \
                               BS(ALMA_LINUX_64),   BS(ALMA_LINUX_ARM_64),   \
                               BS(CRXSYS1_ARM_64),  BS(CRXPOD1_ARM_64),      \
                               BS(CRXSYS2_64),      BS(CRXSYS2_ARM_64)
@@ -300,6 +301,7 @@ Bool Gos_InSetArray(uint32 gos, const uint32 *set);
                               BS(FREEBSD13_ARM_64),     BS(FREEBSD14_ARM_64),    \
                               BS(FREEBSD15_ARM_64),                              \
                               BS(ALMA_LINUX_ARM_64),    BS(ROCKY_LINUX_ARM_64),  \
+                              BS(NAVIX_ARM_64),                                  \
                               BS(CRXSYS1_ARM_64),       BS(CRXSYS2_ARM_64),      \
                               BS(CRXPOD1_ARM_64),                                \
                               BS(RHEL9_ARM_64),         BS(RHEL10_ARM_64)
@@ -345,6 +347,7 @@ Bool Gos_InSetArray(uint32 gos, const uint32 *set);
 #define STR_OS_MANDRIVA           "mandriva"
 #define STR_OS_MIRACLE_LINUX      "miraclelinux"
 #define STR_OS_MKLINUX            "MkLinux"
+#define STR_OS_NAVIX              "navix"
 #define STR_OS_NOVELL             "nld"
 #define STR_OS_NOVELL_FULL        "Novell Linux Desktop 9"
 #define STR_OS_ORACLE             "oraclelinux"

@@ -191,6 +191,8 @@ extern "C" {
    GOT(GUEST_OS_ROCKY_LINUX_ARM_64)                                        \
    GOT(GUEST_OS_ALMA_LINUX_64)                                             \
    GOT(GUEST_OS_ALMA_LINUX_ARM_64)                                         \
+   GOT(GUEST_OS_NAVIX_64)                                                  \
+   GOT(GUEST_OS_NAVIX_ARM_64)                                              \
    GOT(GUEST_OS_PROLINUX_64)                                               \
    GOT(GUEST_OS_PARDUS_64)
 
@@ -408,6 +410,7 @@ extern "C" {
    GOKM("almalinux-64",                         almalinux_64Guest,       TRUE) \
    GOKM("fusionos-64",                          fusionos_64Guest,        TRUE) \
    GOKM("rockylinux-64",                        rockylinux_64Guest,      TRUE) \
+   GOKM("navix-64",                             navix_64Guest,           TRUE) \
    GOKM("prolinux-64",                          prolinux_64Guest,        TRUE) \
    GOKM("kylinlinux-64",                        kylinlinux_64Guest,      TRUE) \
    GOKM("CRXPod1-64",                           crxPod1Guest,            TRUE) \

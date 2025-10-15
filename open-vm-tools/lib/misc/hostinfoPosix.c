@@ -1426,6 +1426,7 @@ static const ShortNameSet shortNameArray[] = {
 { "mandriva",            STR_OS_MANDRIVA,           HostinfoGenericSetShortName },
 { "miracle linux",       STR_OS_MIRACLE_LINUX,      HostinfoGenericSetShortName },
 { "mklinux",             STR_OS_MKLINUX,            HostinfoGenericSetShortName },
+{ "navix",               STR_OS_NAVIX,              HostinfoGenericSetShortName },
 { "opensuse",            STR_OS_OPENSUSE,           HostinfoGenericSetShortName },
 { "oracle",              NULL,                      HostinfoSetOracleShortName  },
 { "pardus",              STR_OS_PARDUS,             HostinfoGenericSetShortName },
